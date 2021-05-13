@@ -1,0 +1,13 @@
+.button-icon {
+  padding: 10px;
+  border-radius: 4px;
+  background: var(--white);
+  border: 1px solid var(--purple);
+  text-decoration: none;
+  display: inline-block; /* para evitar que se superpongan los iconos */
+}
+
+.button-icon img {
+  /* quitar el espaciado adicional que se crea con la imagen */
+  vertical-align: middle;
+}
