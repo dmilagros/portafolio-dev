@@ -2,4 +2,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center; /* alineado vertical */
+  block-size: 80px;
 }
