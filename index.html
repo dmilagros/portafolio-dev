@@ -13,24 +13,28 @@
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-content">
+          <img src="./images/logo.png" width="70" height="20" alt="logo" />
+          <nav aria-label="main-navigation" class="menu">
+            <ul>
+              <li>
+                <a class="is-active" href="#main">Hola</a>
+              </li>
+              <li>
+                <a href="#project">Proyectos</a>
+              </li>
+              <li>
+                <a href="#contact">Hablemos</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="button">Curriculum</button>
+        </div>
+      </div>
+    </header>
     <div class="wrapper">
-      <header class="header">
-        <img src="./images/logo.png" width="70" height="20" alt="logo" />
-        <nav aria-label="main-navigation" class="menu">
-          <ul>
-            <li>
-              <a class="is-active" href="#main">Hola</a>
-            </li>
-            <li>
-              <a href="#project">Proyectos</a>
-            </li>
-            <li>
-              <a href="#contact">Hablemos</a>
-            </li>
-          </ul>
-        </nav>
-        <button class="button">Curriculum</button>
-      </header>
       <section aria-label="main" class="hero" id="main">
         <div class="hero-image">
           <img
@@ -67,11 +71,11 @@
         </div>
       </section>
 
-      <div class="testimony">
-        <div class="testimony-image">
+      <div class="project" id="project">
+        <div class="project-image">
           <img src="./images/macbook.png" alt="" />
         </div>
-        <div class="testimony-description">
+        <div class="project-description">
           <a class="title" target="_blank" href="http://mi-url.com">
             Url Proyecto
           </a>
@@ -87,11 +91,11 @@
           >
         </div>
       </div>
-      <div class="testimony">
-        <div class="testimony-image">
+      <div class="project">
+        <div class="project-image">
           <img src="./images/iPad.png" alt="" />
         </div>
-        <div class="testimony-description">
+        <div class="project-description">
           <a class="title" target="_blank" href="http://mi-url.com">
             Url Proyecto
           </a>
@@ -107,11 +111,11 @@
           >
         </div>
       </div>
-      <div class="testimony">
-        <div class="testimony-image">
+      <div class="project">
+        <div class="project-image">
           <img src="./images/iPhoneX.png" alt="" />
         </div>
-        <div class="testimony-description">
+        <div class="project-description">
           <a class="title" target="_blank" href="http://mi-url.com">
             Url Proyecto
           </a>
@@ -167,7 +171,7 @@
           <button class="button" type="submit">Enviar mensaje</button>
         </div>
       </form>
-      <footer class="footer">
+      <footer class="footer" id="contact">
         <div class="footer-content">
           <div class="footer-logo">
             <img src="./images/logo.png" width="70" height="20" alt="logo" />
